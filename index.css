@@ -1,0 +1,31 @@
+.popup {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 30px;
+}
+
+.popup button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.shadow-mask {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.open {
+  display: block;
+}
